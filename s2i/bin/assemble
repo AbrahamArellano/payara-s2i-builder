@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+echo "---> In build assemble - Listing installations: " `find /tmp/ -name *.war`
+
+# Fix source directory permissions
+fix-permissions ./
