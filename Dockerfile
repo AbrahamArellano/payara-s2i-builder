@@ -5,6 +5,8 @@
 
 FROM payara/server-full
 
+ENV STI_SCRIPTS_PATH="/usr/local/s2i"
+
 # Add configuration files, bashrc and other tweaks
 COPY ./s2i/bin/ $STI_SCRIPTS_PATH
 
