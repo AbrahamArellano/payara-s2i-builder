@@ -3,4 +3,4 @@
 # This image provide a base for running Payara based applications. It
 # provides a base Java 8 installation and Maven 3.
 
-FROM payara/server-full
+FROM openshift/server-full
